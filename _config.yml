@@ -2,8 +2,8 @@
 # Website configuration file
 #
 
-name:
-description:
+name: 122e Papotage
+description: Journal du 122e Groupe Marie Reine de la Paix
 
 avatar: 
 
@@ -38,7 +38,9 @@ categories: []
 
 excerpt_length: 50
 
-permalink: /story/:year/:month/:day/:title/
+paginate_path: "/blog/page:num/"
+
+permalink: /blog/:year/:month/:day/:title/
 
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
