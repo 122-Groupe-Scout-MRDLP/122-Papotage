@@ -9,14 +9,11 @@
 
       <div class="collapse navbar-collapse" id="mainNavbar">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-              <li class="nav-item{% if page.title == "Home" %} active{% endif %}">
-                  <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
+              <li class="nav-item">
+                  <a class="nav-link {% if page.title == "Accueil" %} active{% endif %}" href="{{ site.baseurl }}/">Accueil</a>
               </li>
-              <!-- <li class="nav-item{% if page.blog %} active{% endif %}">
-                  <a class="nav-link" href="{{ site.baseurl }}/blog">Blog</a>
-              </li> -->
-              <li class="nav-item{% if page.title == "About" %} active{% endif %}">
-                  <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
+              <li class="nav-item">
+                  <a class="nav-link {% if page.title == "À propos" %} active{% endif %}" href="{{ site.baseurl }}/about">À propos</a>
               </li>
           </ul>
       </div>
